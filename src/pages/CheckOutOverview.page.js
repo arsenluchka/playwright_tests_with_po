@@ -6,7 +6,6 @@ export class CheckoutOverviewPage extends CheckoutInfoPage {
 
     url = "/checkout-step-two.html";
 
-
     get cartItem() { return this.page.locator('.cart_item'); }
 
 get itemTotal() {return this.page.locator('.summary_subtotal_label')}    

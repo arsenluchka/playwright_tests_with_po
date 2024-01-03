@@ -7,7 +7,7 @@ export class BaseSwagLabPage extends BasePage {
     get shopingCart() { return this.page.locator('.shopping_cart_link'); }
 
     get shopingCartBadge() { return this.page.locator('.shopping_cart_badge'); }
-
+ 
     async getNumberOfItemsInCart() {
         return this.shopingCartBadge.textContent();
     }

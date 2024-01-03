@@ -56,6 +56,7 @@ export class ShopingCartPage extends BaseSwagLabPage {
                 price: await this.getPricebyIndex(i),
             });
         }
+        
         return productsInfo;
     }
     async selectPriceNumber (elem){

@@ -17,6 +17,7 @@ test.describe("", () => {
     );
   });
 
+  
   test("Add and remove product from the cart", async ({
     inventoryPage,
     shopingCartPage,

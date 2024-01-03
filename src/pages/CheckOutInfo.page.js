@@ -6,6 +6,7 @@ export class CheckoutInfoPage extends InventoryPage {
     url = "/checkout-step-one.html";
 
 
+    
     get firstName() { return this.page.locator('#first-name'); }
 
     get lastName() { return this.page.locator('#last-name'); }

@@ -66,3 +66,4 @@ async addItemToCartByInventoryItem(index){
     await this.addItemToCartBtns.nth(id).click();
   }
 }
+
